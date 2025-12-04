@@ -24,6 +24,8 @@
         --color-clifford: #da373d;
         --color-primary: #E76F51;
         --color-bike-bg-primary: rgba(231, 111, 81, 0.1);
+        --color-border-primary: rgba(231, 111, 81, 1);
+        --color-text-primary: rgba(231, 111, 81, 1);
       }
     </style>
   </head>
@@ -185,7 +187,19 @@
     
 
     <!-- main section -->
-    <main class="md:container mx-auto px-4"></main>
+    <main class="md:container mx-auto px-4">
+      <!-- featured bike in this year -->
+      <section class="my-20">
+        <h2 class="text-2xl md:text-5xl text-center font-semibold pb-2 md:pb-5">Featured Bikes In This Year</h2>
+        <p class="text-sm font-semibold text-center text-primary">Best bike collection</p>
+        <div class="border border-primary w-[58px] mx-auto"></div>
+        <div class="pt-10 flex flex-col lg:flex-row justify-between items-center space-y-20 lg:space-y-0">
+          <img src="images/others/feature-bike.png" alt="">
+          <img src="images/others/feature-bike.png" alt="">
+          <img src="images/others/feature-bike.png" alt="">
+        </div>
+      </section>
+    </main>
 
     <!-- footer section -->
     <footer></footer>
